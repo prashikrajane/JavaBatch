@@ -1,0 +1,29 @@
+Q. What is exception hierarchy ?
+-->  Throwable class is the super or root class of java exception hierarchy which contains two sub class that is
+    1) Exception
+    2) Error
+
+* Exception - An event that occurs during the execution of a program that disrupts the normal flow of instruction is
+              called an exception. Exception can be handled.
+* Error - An error is the sub class of Throwable that indicates serious problems that a reasonable application should
+          not try to catch.
+
+Throwable
+         - Exception
+               - SQLException (Checked Exception)
+               - IOException
+                        - EndOfFileException
+                        - FileNotFoundException
+               - RunTimeException (Unchecked Exception)
+                        - ArithmeticException
+                        - NullPointerException
+                        - NumberFormatException
+                        - ClassCastException
+                        - IndexOutOfBoundException
+                                           - ArrayIndexOutOfBoundException
+                                           - StringIndexOutOfBoundException
+         - Error
+               - VirtualError
+               - AssertionError
+               - OutOfMemoryError
+               - StackOverFlowError

@@ -29,7 +29,7 @@ public class ConstructorPractice {
         System.out.println("Password==> " + 916845);
     }
 }
-class Trial{
+class Trial1 {
     public static void main(String[] args){
         ConstructorPractice r=new ConstructorPractice();
         ConstructorPractice r2=new ConstructorPractice("prashik");

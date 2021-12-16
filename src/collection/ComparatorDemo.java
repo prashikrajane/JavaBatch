@@ -40,7 +40,9 @@ public class ComparatorDemo {
             }
         };
 
-        Collections.sort(list, comparator);
+        Collections.sort(list, comparator.thenComparing((ComparatorDemo o1, ComparatorDemo o2)->{
+            return o1.name.compareTo(o2.name);
+        }));
         list.forEach(s -> {
             System.out.println("Id " + s.id + " Name " + s.name + " Address " + s.address);
         });
