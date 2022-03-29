@@ -14,7 +14,10 @@ public class fileNew {
             System.out.println(f);
             System.out.println(file.canExecute());
             System.out.println(file.canRead());
-            System.out.println();
+            System.out.println(file.canWrite());
+            System.out.println(file.delete());
+            System.out.println(file.getAbsoluteFile());
+            System.out.println(file.getCanonicalFile());
 
         } catch (Exception e) {
             e.printStackTrace();
