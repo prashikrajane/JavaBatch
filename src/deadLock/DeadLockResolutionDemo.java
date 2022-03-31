@@ -1,3 +1,5 @@
+package deadLock;
+
 public class DeadLockResolutionDemo {
     public static void main(String[] args) {
 
